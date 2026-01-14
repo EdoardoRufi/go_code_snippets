@@ -1,6 +1,8 @@
 package main
 
-import "go_code_snippets/snippets"
+import (
+	"go_code_snippets/snippets"
+)
 
 func main() {
 	//snippets.LaunchSortByPrice()
@@ -8,5 +10,8 @@ func main() {
 	// datastructures.LaunchStack()
 	// datastructures.LaunchConcurrentStack()
 	// snippets.LaunchFindMinMax()
-	snippets.EnsureMaxVersionInString()
+	//snippets.EnsureMaxVersionInString()
+	// datastructures.LaunchConstructorDemonstration()
+	snippets.Error()
+
 }
