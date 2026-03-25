@@ -1,8 +1,6 @@
 package main
 
-import (
-	"go_code_snippets/snippets"
-)
+import "go_code_snippets/errors"
 
 func main() {
 	//snippets.LaunchSortByPrice()
@@ -12,7 +10,7 @@ func main() {
 	// snippets.LaunchFindMinMax()
 	//snippets.EnsureMaxVersionInString()
 	// datastructures.LaunchConstructorDemonstration()
-	snippets.Error()
+	errors.ControllerLoadUser(0)
 	// err := endpoints.StartServers()
 	// if err != nil {
 	// 	panic(err)
